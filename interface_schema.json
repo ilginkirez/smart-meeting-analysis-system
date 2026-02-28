@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MeetingTranscript",
+  "description": "Shared contract between Audio Pipeline (Kişi A) output and NLP Pipeline (Kişi B) input. DO NOT MODIFY without both parties agreeing.",
+  "type": "object",
+  "required": ["meeting_id", "duration_seconds", "segments"],
+  "properties": {
+    "meeting_id": {
+      "type": "string",
+      "description": "Unique identifier for the meeting"
+    },
+    "duration_seconds": {
+      "type": "number",
+      "description": "Total duration of the audio in seconds"
+    },
+    "language": {
+      "type": "string",
+      "description": "Detected or specified language code (e.g. 'en', 'tr')",
+      "default": "en"
+    },
+    "num_speakers": {
+      "type": "integer",
+      "description": "Total number of distinct speakers detected"
+    },
+    "segments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["speaker", "start", "end", "text"],
+        "properties": {
+          "speaker": {
+            "type": "string",
+            "description": "Speaker identifier (e.g. 'Speaker_0', 'Speaker_1')"
+          },
+          "start": {
+            "type": "number",
+            "description": "Segment start time in seconds"
+          },
+          "end": {
+            "type": "number",
+            "description": "Segment end time in seconds"
+          },
+          "text": {
+            "type": "string",
+            "description": "Transcribed text for this segment"
+          },
+          "overlap": {
+            "type": "boolean",
+            "description": "Whether this segment overlaps with another speaker",
+            "default": false
+          },
+          "confidence": {
+            "type": "number",
+            "description": "ASR confidence score (0.0 to 1.0)",
+            "minimum": 0.0,
+            "maximum": 1.0
+          }
+        }
+      }
+    }
+  }
+}

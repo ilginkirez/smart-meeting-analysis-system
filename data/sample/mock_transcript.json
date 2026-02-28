@@ -1,0 +1,72 @@
+{
+    "meeting_id": "ami_mock_001",
+    "duration_seconds": 120.5,
+    "language": "en",
+    "num_speakers": 3,
+    "segments": [
+        {
+            "speaker": "Speaker_0",
+            "start": 0.0,
+            "end": 5.2,
+            "text": "Good morning everyone. Let's start with the project status update.",
+            "overlap": false,
+            "confidence": 0.96
+        },
+        {
+            "speaker": "Speaker_1",
+            "start": 5.5,
+            "end": 15.3,
+            "text": "Thanks. So I've been working on the frontend redesign. The new dashboard layout is almost done, I should be able to finish it by Friday.",
+            "overlap": false,
+            "confidence": 0.93
+        },
+        {
+            "speaker": "Speaker_2",
+            "start": 14.8,
+            "end": 18.1,
+            "text": "That's great, do you need any help with the API integration?",
+            "overlap": true,
+            "confidence": 0.87
+        },
+        {
+            "speaker": "Speaker_1",
+            "start": 18.5,
+            "end": 25.0,
+            "text": "Actually yes, I need the user authentication endpoint to be ready by Wednesday. Can you handle that?",
+            "overlap": false,
+            "confidence": 0.94
+        },
+        {
+            "speaker": "Speaker_2",
+            "start": 25.3,
+            "end": 30.1,
+            "text": "Sure, I'll prepare the auth endpoint by Wednesday. I'll also write the documentation for it.",
+            "overlap": false,
+            "confidence": 0.95
+        },
+        {
+            "speaker": "Speaker_0",
+            "start": 30.5,
+            "end": 38.2,
+            "text": "Perfect. Let's also discuss the testing strategy. I'm a bit concerned about our test coverage.",
+            "overlap": false,
+            "confidence": 0.92
+        },
+        {
+            "speaker": "Speaker_1",
+            "start": 38.5,
+            "end": 45.0,
+            "text": "I agree, we should aim for at least 80 percent coverage. I can set up the testing framework this week.",
+            "overlap": false,
+            "confidence": 0.91
+        },
+        {
+            "speaker": "Speaker_0",
+            "start": 45.3,
+            "end": 50.8,
+            "text": "Good. Let's meet again next Monday to review progress. Meeting adjourned.",
+            "overlap": false,
+            "confidence": 0.97
+        }
+    ]
+}
