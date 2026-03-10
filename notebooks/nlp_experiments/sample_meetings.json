@@ -1,0 +1,46 @@
+[
+    {
+        "id": "meeting_001",
+        "title": "Pazarlama Çeyrek Toplantısı",
+        "date": "2025-03-10",
+        "participants": [
+            "Ahmet",
+            "Ayşe",
+            "Mehmet"
+        ],
+        "transcript": "Ahmet: Bu çeyreğin pazarlama raporunu hazırlamamız lazım.\nAyşe: Ben bunu cuma gününe kadar hazırlayabilirim.\nMehmet: Sunum için de müşteriye mail atalım.\nAyşe: Tamam, onu da ben salıya kadar gönderirim.\nAhmet: Harika, toplantıyı burada bitirelim."
+    },
+    {
+        "id": "meeting_002",
+        "title": "Sprint Planlama Toplantısı",
+        "date": "2025-03-12",
+        "participants": [
+            "Deniz",
+            "Can",
+            "Elif",
+            "Burak"
+        ],
+        "transcript": "Deniz: Bu sprintte kullanıcı giriş modülünü bitirmemiz gerekiyor.\nCan: Backend API'yi ben perşembeye kadar hazırlarım.\nElif: Frontend tarafını ben de cumaya kadar tamamlarım.\nBurak: Test senaryolarını yazmam lazım, pazartesiye kadar hallederim.\nDeniz: Güzel, bir de performans testlerini unutmayalım.\nCan: Onu da ben üstlenebilirim, gelecek çarşambaya kadar.\nDeniz: Tamam, herkes görevini biliyor, hadi başlayalım."
+    },
+    {
+        "id": "meeting_003",
+        "title": "Müşteri Geri Bildirim Değerlendirmesi",
+        "date": "2025-03-15",
+        "participants": [
+            "Selin",
+            "Murat",
+            "Zeynep"
+        ],
+        "transcript": "Selin: Müşterilerden gelen son geri bildirimleri değerlendirelim.\nMurat: En çok şikayet arayüzün yavaşlığıyla ilgili. Bunu önceliklendirmemiz lazım.\nZeynep: Ben kullanıcı anketini analiz ettim, yüzde altmışı mobil deneyimden memnun değil.\nSelin: O zaman mobil optimizasyonu bu ayın önceliği yapalım.\nMurat: Ben teknik analiz raporunu çarşambaya kadar hazırlarım.\nZeynep: Ben de müşteri memnuniyet skorlarını gelecek pazartesiye kadar güncellerim.\nSelin: Harika, bir sonraki toplantıda ilerlemeyi değerlendiririz."
+    },
+    {
+        "id": "meeting_004",
+        "title": "Mobil Uygulama Geliştirme İlerleme Toplantısı",
+        "date": "2025-03-20",
+        "participants": [
+            "Ahmet",
+            "Ayşe"
+        ],
+        "transcript": "Ahmet: Günaydın Ayşe, bugün özellikle yeni mobil uygulama projesinin ilerleyişini konuşmak istiyorum.\nAyşe: Günaydın Ahmet, evet ben de notlarımı hazırladım. Özellikle kullanıcı kayıt sistemiyle ilgili birkaç güncelleme var.\n\nAhmet: Harika, önce genel durumdan başlayalım. Backend tarafındaki geliştirmeler ne durumda?\nAyşe: Backend tarafında kullanıcı doğrulama sistemi tamamlandı. JWT tabanlı bir authentication yapısı kurduk ve şu anda test aşamasında.\n\nAhmet: Güzel. Peki veritabanı tarafında bir değişiklik oldu mu?\nAyşe: Evet, kullanıcı profilleri için yeni bir tablo ekledik. Ayrıca performansı artırmak için bazı indeksler oluşturduk.\n\nAhmet: Performans testleri yaptınız mı?\nAyşe: Henüz tam kapsamlı yapmadık ama küçük ölçekli testlerde sorgu sürelerinin ciddi şekilde düştüğünü gördük.\n\nAhmet: Güzel haber. Frontend tarafında durum nasıl?\nAyşe: Frontend ekibi login ve kayıt ekranlarını tamamladı. Ayrıca profil düzenleme sayfası da büyük ölçüde hazır.\n\nAhmet: Kullanıcı deneyimi açısından bir geri bildirim aldınız mı?\nAyşe: Evet, tasarım ekibi bazı küçük değişiklikler önerdi. Özellikle buton yerleşimi ve form validasyon mesajlarının daha görünür olması gerektiğini söylediler.\n\nAhmet: Mantıklı. Onları da bu hafta içinde güncelleyebilir miyiz?\nAyşe: Evet, yarına kadar gerekli düzenlemeleri yapmayı planlıyorum.\n\nAhmet: Çok iyi. Peki API entegrasyonları ne durumda?\nAyşe: Login API’si frontend ile başarıyla entegre edildi. Ancak profil güncelleme API’sinde küçük bir hata tespit ettik.\n\nAhmet: Hatanın sebebi ne?\nAyşe: JSON payload formatında bir uyuşmazlık var. Backend tarafında bir alan opsiyonel ama frontend tarafı zorunlu gönderiyor.\n\nAhmet: Tamam, bunu hızlıca çözebiliriz gibi görünüyor.\nAyşe: Evet, backend ekibiyle konuştum. Bugün içinde düzeltmeyi planlıyorlar.\n\nAhmet: Harika. Test planı oluşturuldu mu?\nAyşe: QA ekibi bir test checklist hazırladı. Fonksiyonel testler, güvenlik testleri ve performans testleri ayrı ayrı planlandı.\n\nAhmet: Güzel. Beta test için bir tarih belirledik mi?\nAyşe: Eğer her şey planlandığı gibi giderse iki hafta sonra kapalı beta başlatabiliriz.\n\nAhmet: Kapalı beta için kaç kullanıcı düşünüyoruz?\nAyşe: Yaklaşık 50 kullanıcıyla başlamayı öneriyorum.\n\nAhmet: Mantıklı. Bu kullanıcıları nereden bulacağız?\nAyşe: Mevcut müşteri listemizden gönüllü kullanıcılar seçebiliriz.\n\nAhmet: İyi fikir. Onlara davet maili göndermek gerekecek.\nAyşe: Evet, mail taslağını hazırlayıp pazarlama ekibiyle paylaşabilirim.\n\nAhmet: Ne zamana kadar hazır olur?\nAyşe: En geç perşembe gününe kadar taslağı tamamlarım.\n\nAhmet: Süper. Bir de uygulamanın analytics entegrasyonu vardı.\nAyşe: Evet, onu da konuştuk. Firebase Analytics kullanmayı planlıyoruz.\n\nAhmet: O entegrasyon başladı mı?\nAyşe: Henüz başlamadı ama frontend geliştiricilerinden biri bu hafta onunla ilgilenecek.\n\nAhmet: Tamam. Uygulamanın ilk sürümünde hangi metrikleri takip edeceğiz?\nAyşe: Günlük aktif kullanıcı sayısı, oturum süresi ve kayıt dönüşüm oranı gibi metrikleri takip edeceğiz.\n\nAhmet: Gayet iyi. Peki güvenlik açısından başka bir önlem alacak mıyız?\nAyşe: Rate limiting ve brute-force koruması eklemeyi planlıyoruz.\n\nAhmet: Güzel düşünülmüş. Deployment planı hazır mı?\nAyşe: Evet, staging ve production ortamları ayrı olacak şekilde bir CI/CD pipeline hazırladık.\n\nAhmet: Hangi araçları kullanıyorsunuz?\nAyşe: GitHub Actions ve Docker kullanıyoruz.\n\nAhmet: Çok iyi. Documentation tarafı nasıl gidiyor?\nAyşe: API dokümantasyonu Swagger üzerinden oluşturuluyor.\n\nAhmet: Harika. Yeni geliştiriciler için de faydalı olur.\nAyşe: Kesinlikle. Ayrıca proje wiki sayfasını da güncelliyoruz.\n\nAhmet: Peki mobil uygulama store süreçlerini konuşalım mı?\nAyşe: Evet, App Store ve Google Play için gerekli hesaplar zaten hazır.\n\nAhmet: Yayınlama süreci ne kadar sürer?\nAyşe: Google Play genelde birkaç saat sürüyor ama App Store incelemesi birkaç gün sürebilir.\n\nAhmet: O zaman lansman tarihini buna göre planlamamız lazım.\nAyşe: Evet, en az bir hafta buffer bırakmak mantıklı olur.\n\nAhmet: Katılıyorum. Son olarak yapılacak işleri özetleyelim.\nAyşe: Ben frontend tasarım güncellemelerini yarına kadar tamamlıyorum.\n\nAhmet: Tamam.\nAyşe: Ayrıca davet maili taslağını perşembe gününe kadar hazırlayıp pazarlama ekibiyle paylaşacağım.\n\nAhmet: Güzel.\nAyşe: Backend ekibi de bugün profil API hatasını düzeltecek.\n\nAhmet: Harika. O zaman haftaya tekrar kısa bir ilerleme toplantısı yapalım.\nAyşe: Tamamdır, takvime ekliyorum.\n\nAhmet: Teşekkürler Ayşe, çok verimli bir toplantı oldu.\nAyşe: Ben teşekkür ederim Ahmet, iyi çalışmalar."
+    }
+]

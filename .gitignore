@@ -43,5 +43,8 @@ logs/
 outputs/
 *.log
 
+# Node.js (React meeting-dashboard)
+node_modules/
+
 # Redis dump
 dump.rdb
