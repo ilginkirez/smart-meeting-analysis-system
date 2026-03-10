@@ -4,6 +4,8 @@
 
 # --- Ortak (İkisi de yükler) ---
 python-dotenv>=1.0.0
+pydantic>=2.0.0
+
 
 # --- Kişi A: Ses & Diyarizasyon ---
 openai-whisper>=20231117
